@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1B1B1F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #3B3C3F;
+  color: #eee;
+}
+
+.navbar{
+  background-color: #2B2B2D;
+  padding: 20px;
+  text-align: center;
+}
+
+.booklist{
+margin: 20px;
+}
+
+.booklist ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.booklist li{
+  background-color:  #505054;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin:10px 0;
+}
+
+.booklist li:hover{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.booklist .title{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.booklist .author{
+  font-size: 0.9em;
+  color:#ddd;
+}
+
+.empty{
+  margin: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+
+input[type='text']{
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:#505054;
+  color: #fff;
+  border: 0;
+}
+
+button[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border:0;
+  padding: 6px 20px;
+  display: block;
 }
